@@ -1,0 +1,161 @@
+@font-face {
+    font-family: 'venera-900';
+    src: url('../fonts/Venera-900.otf') format('otf');
+}
+
+.bg-img {
+    background-image: url(../images/bg.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: 100% 100% !important;
+}
+
+#navbarNav .nav-item .nav-link {
+    font-family: 'venera-3', sans-serif;
+    color: white !important;
+}
+.btn-touch{
+    background-color: #CF9944;
+    padding: 0px 15px;
+}
+h1 {
+    font-family: 'venera-900';
+    font-size: 3.7rem;
+    font-weight: bold;
+}
+/* Float */
+.hvr-float {
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+  .hvr-float:hover, .hvr-float:focus, .hvr-float:active {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+.active {
+    font-weight: bold !important;
+}
+.btn-call{
+    background-color: #330045;
+    padding: 8px 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.btn-call2{
+    border: 1px solid white;
+    padding: 8px 20px;
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+    color: #585858;
+}
+.about-card{
+    background-color: rgba(255, 255, 255, 0.2);
+     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+     border: 1px solid transparent;
+}
+.about-card:hover{
+    border: 1px solid  rgba(51, 0, 69, 1);
+    cursor: pointer;
+}
+
+.color-blue{
+    color: #330045;
+}
+
+.card-color{
+    background-color: #FFFBF4;
+}
+.card-color p{
+    font-size: 0.8rem;
+}
+.virtual-card{
+    background-color: #F6EEE9;
+}
+.virtual-card p{
+    background-color: #F6EEE9;
+    font-size: 0.8rem;
+} 
+#link a #b{
+    display: none;
+}
+#link a:hover #b{
+    display: inline;
+}
+#link a:hover #a{
+    display: none;
+}
+.size{
+    font-size: 0.8rem;
+}
+.fotor-bg{
+    background-color: #330045;
+    color: white;
+}
+.fotor-bg .footer-text{
+    color: white;
+}
+.input-group .rounded{
+    padding: 21px 13px;
+ }
+ .input-group ::placeholder{
+     font-size: 0.8rem;
+ }
+ .input-group .btn-search{
+     position: absolute; 
+     right: 0; 
+     margin-top: 0.4rem; 
+     margin-right: 0.7rem;
+ }
+ .btn-search{
+     background-color: #CF9944;
+     border-radius: 3px;
+     font-size: 0.7em;
+     border: 1px solid #CF9944;
+     font-weight: 500;
+     color: white;
+     padding: 6px 16px;
+ }
+ .bg-road{
+    background-image: url(../images/bg-raod.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: 100% 100% !important;
+ }
+ .bg-color{
+    background-image: url(../images/bg-img.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: 100% 100% !important;
+}
+@media (max-width: 780px) {
+    .bg-img {
+        background-image: url(../images/bg.png);
+        background-repeat: no-repeat;
+        width: 100%;
+        background-size: auto 100% !important;
+    }
+}
+@media (max-width: 400px) {
+    h1{
+        font-size: 2.4rem;
+    }
+    .bg-road{
+        background-image: url(../images/bg-raod.png);
+        background-repeat: no-repeat;
+        width: 100%;
+        background-size: auto 100% !important;
+     }
+     .bg-color{
+        background-image: url(../images/bg-img.png);
+        background-repeat: no-repeat;
+        width: 100%;
+        background-size: auto 100% !important;
+    }
+}
